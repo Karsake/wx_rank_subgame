@@ -1,0 +1,57 @@
+2018-07-24T01:24:07.180Z - normal: Load ~/.CocosCreator/settings.json
+2018-07-24T01:24:07.185Z - normal: checking language setting...
+2018-07-24T01:24:07.185Z - normal: Language: en
+2018-07-24T01:24:09.016Z - success: protocol editor-framework registered
+2018-07-24T01:24:09.016Z - success: protocol app registered
+2018-07-24T01:24:09.016Z - success: protocol theme registered
+2018-07-24T01:24:09.016Z - success: protocol packages registered
+2018-07-24T01:24:09.017Z - success: protocol unpack registerred
+2018-07-24T01:24:09.017Z - success: protocol disable-commonjs registerred
+2018-07-24T01:24:09.431Z - normal: connected!
+2018-07-24T01:24:09.433Z - normal: Check project /Users/Macbook/Documents/GitHub/wx_rank_subgame
+2018-07-24T01:24:09.436Z - normal: Initializing Cocos2d
+2018-07-24T01:24:09.917Z - normal: Initializing Asset Database
+2018-07-24T01:24:09.982Z - success: protocol uuid registerred
+2018-07-24T01:24:09.982Z - success: protocol db registerred
+2018-07-24T01:24:09.982Z - success: protocol thumbnail registerred
+2018-07-24T01:24:09.983Z - normal: Loading editor/builtin packages
+2018-07-24T01:24:10.027Z - success: anysdk loaded
+2018-07-24T01:24:10.251Z - success: assets loaded
+2018-07-24T01:24:10.256Z - success: builder loaded
+2018-07-24T01:24:10.260Z - success: cocos-analytics loaded
+2018-07-24T01:24:10.269Z - success: console loaded
+2018-07-24T01:24:10.307Z - success: fb-instant-games loaded
+2018-07-24T01:24:10.313Z - success: hierarchy loaded
+2018-07-24T01:24:10.322Z - success: inspector loaded
+2018-07-24T01:24:10.326Z - success: keystore loaded
+2018-07-24T01:24:10.336Z - success: node-library loaded
+2018-07-24T01:24:10.339Z - success: package-asset loaded
+2018-07-24T01:24:10.344Z - success: preferences loaded
+2018-07-24T01:24:10.349Z - success: project-exporter loaded
+2018-07-24T01:24:10.379Z - success: project-importer loaded
+2018-07-24T01:24:10.384Z - success: project-settings loaded
+2018-07-24T01:24:10.390Z - success: ui-kit loaded
+2018-07-24T01:24:10.398Z - success: ui-grid loaded
+2018-07-24T01:24:10.405Z - success: scene loaded
+2018-07-24T01:24:10.408Z - success: sprite-editor loaded
+2018-07-24T01:24:10.417Z - success: store loaded
+2018-07-24T01:24:10.432Z - success: timeline loaded
+2018-07-24T01:24:10.432Z - normal: Loading builtin packages
+2018-07-24T01:24:10.442Z - success: asset-db-debugger loaded
+2018-07-24T01:24:10.444Z - success: color-picker loaded
+2018-07-24T01:24:10.453Z - success: package-manager loaded
+2018-07-24T01:24:10.456Z - success: qqplay-adapter loaded
+2018-07-24T01:24:10.466Z - success: sdkbox loaded
+2018-07-24T01:24:10.475Z - success: tester loaded
+2018-07-24T01:24:10.483Z - success: ui-kit-preview-extra loaded
+2018-07-24T01:24:10.493Z - success: ui-kit-preview loaded
+2018-07-24T01:24:10.501Z - success: ui-tree loaded
+2018-07-24T01:24:10.503Z - success: weapp-adapter loaded
+2018-07-24T01:24:12.365Z - normal: Initializing project /Users/Macbook/Documents/GitHub/wx_rank_subgame
+2018-07-24T01:24:12.370Z - normal: Loading packages
+2018-07-24T01:24:12.378Z - normal: Watching packages
+2018-07-24T01:24:12.506Z - normal: Run Application
+2018-07-24T01:24:13.812Z - success: preview server running at http://localhost:7456
+2018-07-24T01:24:19.384Z - normal: 1.9.2
+2018-07-24T01:24:19.504Z - warn: Should not specify class name GameOverRank for Component which defines in project.
+2018-07-24T01:24:19.509Z - warn: Should not specify class name RankItem for Component which defines in project.

@@ -1,3 +1,9 @@
+"use strict";
+cc._RF.push(module, 'd97bdIn/jtJmpn7qz0kKhI5', 'GameOverRank');
+// Script/GameOverRank.js
+
+"use strict";
+
 cc.Class({
     extends: cc.Component,
     name: "GameOverRank",
@@ -6,17 +12,17 @@ cc.Class({
         rankLabel: cc.Label,
         avatarImgSprite: cc.Sprite,
         nickLabel: cc.Label,
-        topScoreLabel: cc.Label,
+        topScoreLabel: cc.Label
     },
 
-    init: function (rank, data,isPlayer) {
-        let avatarUrl = data.avatarUrl;
+    init: function init(rank, data, isPlayer) {
+        var avatarUrl = data.avatarUrl;
         // let nick = data.nickname.length <= 10 ? data.nickname : data.nickname.substr(0, 10) + "...";
-        let nick = data.nickname;
-        let grade = data.KVDataList.length != 0 ? data.KVDataList[0].value : 0;
+        var nick = data.nickname;
+        var grade = data.KVDataList.length != 0 ? data.KVDataList[0].value : 0;
 
         if (rank % 2 == 0) {
-            this.backSprite.color = new cc.Color(255,255, 255, 255);
+            this.backSprite.color = new cc.Color(255, 255, 255, 255);
         }
         if (isPlayer) {
             this.rankLabel.node.color = new cc.Color(0, 255, 0, 255);
@@ -26,33 +32,36 @@ cc.Class({
         this.nickLabel.string = nick;
         this.topScoreLabel.string = grade.toString();
     },
-    createImage(avatarUrl) {
+    createImage: function createImage(avatarUrl) {
+        var _this = this;
+
         if (window.wx != undefined) {
             try {
-                let image = wx.createImage();
-                image.onload = () => {
+                var image = wx.createImage();
+                image.onload = function () {
                     try {
-                        let texture = new cc.Texture2D();
+                        var texture = new cc.Texture2D();
                         texture.initWithElement(image);
                         texture.handleLoadedTexture();
-                        this.avatarImgSprite.spriteFrame = new cc.SpriteFrame(texture);
+                        _this.avatarImgSprite.spriteFrame = new cc.SpriteFrame(texture);
                     } catch (e) {
                         cc.log(e);
-                        this.avatarImgSprite.node.active = false;
+                        _this.avatarImgSprite.node.active = false;
                     }
                 };
                 image.src = avatarUrl;
-            }catch (e) {
+            } catch (e) {
                 cc.log(e);
                 this.avatarImgSprite.node.active = false;
             }
         } else {
             cc.loader.load({
                 url: avatarUrl, type: 'jpg'
-            }, (err, texture) => {
-                this.avatarImgSprite.spriteFrame = new cc.SpriteFrame(texture);
+            }, function (err, texture) {
+                _this.avatarImgSprite.spriteFrame = new cc.SpriteFrame(texture);
             });
         }
     }
-
 });
+
+cc._RF.pop();
