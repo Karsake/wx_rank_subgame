@@ -21,12 +21,24 @@
       "id": "820bd04b-ec03-4f18-912b-ebb268e267af"
     },
     {
-      "folded": false,
+      "folded": true,
+      "id": "f11034f7-18de-477f-b643-5ab8cc7b34b6"
+    },
+    {
+      "folded": true,
       "id": "751ee910-b88d-4827-bd7c-e2c084242cc9"
     },
     {
-      "folded": false,
+      "folded": true,
       "id": "17f42f5d-d7c7-4ed4-bd55-7cba3caac954"
+    },
+    {
+      "folded": true,
+      "id": "329a43ff-f49e-4513-83af-a2530b7f86b7"
+    },
+    {
+      "folded": true,
+      "id": "5554e4bd-8444-46e6-bcce-0b700fc16c51"
     }
   ]
 }

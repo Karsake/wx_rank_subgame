@@ -4,6 +4,6 @@ window.DOMParser = Parser.DOMParser;
 require('libs/wx-downloader.js');
 wxDownloader.REMOTE_SERVER_ROOT = "";
 wxDownloader.SUBCONTEXT_ROOT = "SubGame";
-require('src/settings.bb2b7');
-require('main.2a2b1');
+require('src/settings.1cb8b');
+require('main.7eaf5');
 require('libs/sub-context-adapter');

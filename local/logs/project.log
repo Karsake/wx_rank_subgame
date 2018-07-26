@@ -1,57 +1,174 @@
-2018-07-24T01:24:07.180Z - normal: Load ~/.CocosCreator/settings.json
-2018-07-24T01:24:07.185Z - normal: checking language setting...
-2018-07-24T01:24:07.185Z - normal: Language: en
-2018-07-24T01:24:09.016Z - success: protocol editor-framework registered
-2018-07-24T01:24:09.016Z - success: protocol app registered
-2018-07-24T01:24:09.016Z - success: protocol theme registered
-2018-07-24T01:24:09.016Z - success: protocol packages registered
-2018-07-24T01:24:09.017Z - success: protocol unpack registerred
-2018-07-24T01:24:09.017Z - success: protocol disable-commonjs registerred
-2018-07-24T01:24:09.431Z - normal: connected!
-2018-07-24T01:24:09.433Z - normal: Check project /Users/Macbook/Documents/GitHub/wx_rank_subgame
-2018-07-24T01:24:09.436Z - normal: Initializing Cocos2d
-2018-07-24T01:24:09.917Z - normal: Initializing Asset Database
-2018-07-24T01:24:09.982Z - success: protocol uuid registerred
-2018-07-24T01:24:09.982Z - success: protocol db registerred
-2018-07-24T01:24:09.982Z - success: protocol thumbnail registerred
-2018-07-24T01:24:09.983Z - normal: Loading editor/builtin packages
-2018-07-24T01:24:10.027Z - success: anysdk loaded
-2018-07-24T01:24:10.251Z - success: assets loaded
-2018-07-24T01:24:10.256Z - success: builder loaded
-2018-07-24T01:24:10.260Z - success: cocos-analytics loaded
-2018-07-24T01:24:10.269Z - success: console loaded
-2018-07-24T01:24:10.307Z - success: fb-instant-games loaded
-2018-07-24T01:24:10.313Z - success: hierarchy loaded
-2018-07-24T01:24:10.322Z - success: inspector loaded
-2018-07-24T01:24:10.326Z - success: keystore loaded
-2018-07-24T01:24:10.336Z - success: node-library loaded
-2018-07-24T01:24:10.339Z - success: package-asset loaded
-2018-07-24T01:24:10.344Z - success: preferences loaded
-2018-07-24T01:24:10.349Z - success: project-exporter loaded
-2018-07-24T01:24:10.379Z - success: project-importer loaded
-2018-07-24T01:24:10.384Z - success: project-settings loaded
-2018-07-24T01:24:10.390Z - success: ui-kit loaded
-2018-07-24T01:24:10.398Z - success: ui-grid loaded
-2018-07-24T01:24:10.405Z - success: scene loaded
-2018-07-24T01:24:10.408Z - success: sprite-editor loaded
-2018-07-24T01:24:10.417Z - success: store loaded
-2018-07-24T01:24:10.432Z - success: timeline loaded
-2018-07-24T01:24:10.432Z - normal: Loading builtin packages
-2018-07-24T01:24:10.442Z - success: asset-db-debugger loaded
-2018-07-24T01:24:10.444Z - success: color-picker loaded
-2018-07-24T01:24:10.453Z - success: package-manager loaded
-2018-07-24T01:24:10.456Z - success: qqplay-adapter loaded
-2018-07-24T01:24:10.466Z - success: sdkbox loaded
-2018-07-24T01:24:10.475Z - success: tester loaded
-2018-07-24T01:24:10.483Z - success: ui-kit-preview-extra loaded
-2018-07-24T01:24:10.493Z - success: ui-kit-preview loaded
-2018-07-24T01:24:10.501Z - success: ui-tree loaded
-2018-07-24T01:24:10.503Z - success: weapp-adapter loaded
-2018-07-24T01:24:12.365Z - normal: Initializing project /Users/Macbook/Documents/GitHub/wx_rank_subgame
-2018-07-24T01:24:12.370Z - normal: Loading packages
-2018-07-24T01:24:12.378Z - normal: Watching packages
-2018-07-24T01:24:12.506Z - normal: Run Application
-2018-07-24T01:24:13.812Z - success: preview server running at http://localhost:7456
-2018-07-24T01:24:19.384Z - normal: 1.9.2
-2018-07-24T01:24:19.504Z - warn: Should not specify class name GameOverRank for Component which defines in project.
-2018-07-24T01:24:19.509Z - warn: Should not specify class name RankItem for Component which defines in project.
+2018-07-25T11:30:35.801Z - normal: Load ~/.CocosCreator/settings.json
+2018-07-25T11:30:35.809Z - normal: checking language setting...
+2018-07-25T11:30:35.810Z - normal: Language: en
+2018-07-25T11:30:37.345Z - success: protocol editor-framework registered
+2018-07-25T11:30:37.346Z - success: protocol app registered
+2018-07-25T11:30:37.346Z - success: protocol theme registered
+2018-07-25T11:30:37.347Z - success: protocol packages registered
+2018-07-25T11:30:37.348Z - success: protocol unpack registerred
+2018-07-25T11:30:37.350Z - success: protocol disable-commonjs registerred
+2018-07-25T11:30:37.497Z - normal: connected!
+2018-07-25T11:30:37.499Z - normal: Check project /Users/Macbook/Documents/GitHub/wx_rank_subgame
+2018-07-25T11:30:37.500Z - normal: Initializing Cocos2d
+2018-07-25T11:30:37.812Z - normal: Initializing Asset Database
+2018-07-25T11:30:37.859Z - success: protocol uuid registerred
+2018-07-25T11:30:37.859Z - success: protocol db registerred
+2018-07-25T11:30:37.859Z - success: protocol thumbnail registerred
+2018-07-25T11:30:37.860Z - normal: Loading editor/builtin packages
+2018-07-25T11:30:37.897Z - success: anysdk loaded
+2018-07-25T11:30:38.087Z - success: assets loaded
+2018-07-25T11:30:38.093Z - success: builder loaded
+2018-07-25T11:30:38.097Z - success: cocos-analytics loaded
+2018-07-25T11:30:38.105Z - success: console loaded
+2018-07-25T11:30:38.158Z - success: fb-instant-games loaded
+2018-07-25T11:30:38.166Z - success: hierarchy loaded
+2018-07-25T11:30:38.171Z - success: inspector loaded
+2018-07-25T11:30:38.174Z - success: keystore loaded
+2018-07-25T11:30:38.181Z - success: node-library loaded
+2018-07-25T11:30:38.184Z - success: package-asset loaded
+2018-07-25T11:30:38.188Z - success: preferences loaded
+2018-07-25T11:30:38.194Z - success: project-exporter loaded
+2018-07-25T11:30:38.219Z - success: project-importer loaded
+2018-07-25T11:30:38.226Z - success: project-settings loaded
+2018-07-25T11:30:38.234Z - success: ui-kit loaded
+2018-07-25T11:30:38.239Z - success: ui-grid loaded
+2018-07-25T11:30:38.248Z - success: scene loaded
+2018-07-25T11:30:38.251Z - success: sprite-editor loaded
+2018-07-25T11:30:38.261Z - success: store loaded
+2018-07-25T11:30:38.273Z - success: timeline loaded
+2018-07-25T11:30:38.274Z - normal: Loading builtin packages
+2018-07-25T11:30:38.284Z - success: asset-db-debugger loaded
+2018-07-25T11:30:38.286Z - success: color-picker loaded
+2018-07-25T11:30:38.293Z - success: package-manager loaded
+2018-07-25T11:30:38.295Z - success: qqplay-adapter loaded
+2018-07-25T11:30:38.308Z - success: sdkbox loaded
+2018-07-25T11:30:38.315Z - success: tester loaded
+2018-07-25T11:30:38.319Z - success: ui-kit-preview-extra loaded
+2018-07-25T11:30:38.325Z - success: ui-kit-preview loaded
+2018-07-25T11:30:38.331Z - success: ui-tree loaded
+2018-07-25T11:30:38.334Z - success: weapp-adapter loaded
+2018-07-25T11:30:40.405Z - normal: Initializing project /Users/Macbook/Documents/GitHub/wx_rank_subgame
+2018-07-25T11:30:40.418Z - normal: Loading packages
+2018-07-25T11:30:40.430Z - normal: Watching packages
+2018-07-25T11:30:40.737Z - normal: Run Application
+2018-07-25T11:30:41.569Z - success: preview server running at http://localhost:7457
+2018-07-25T11:30:50.724Z - normal: 1.9.2
+2018-07-25T11:30:51.504Z - warn: Should not specify class name RankItem for Component which defines in project.
+2018-07-25T11:34:23.876Z - warn: Should not specify class name RankItem for Component which defines in project.
+2018-07-25T11:35:04.446Z - warn: Should not specify class name RankItem for Component which defines in project.
+2018-07-25T11:35:14.082Z - normal: Start building with options : {
+  "androidStudio": true,
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/Macbook/Documents/GitHub/wx_rank_subgame/build",
+  "debug": false,
+  "dest": "/Users/Macbook/Documents/GitHub/wx_rank_subgame/build/wechatgame",
+  "encryptJs": true,
+  "excludeScenes": [],
+  "excludedModules": [
+    "CCSpriteDistortion",
+    "LabelOutline",
+    "ParticleSystem",
+    "TiledMap",
+    "Spine Skeleton",
+    "Widget",
+    "Button",
+    "ProgressBar",
+    "Toggle",
+    "PageView",
+    "PageViewIndicator",
+    "Slider",
+    "EditorBox",
+    "VideoPlayer",
+    "WebView",
+    "RichText",
+    "AudioSource",
+    "Animation",
+    "MotionStreak",
+    "Collider",
+    "Action",
+    "Audio",
+    "Graphics",
+    "DragonBones",
+    "Physics",
+    "StudioComponent",
+    "RenderTexture",
+    "Chipmunk",
+    "Camera",
+    "Intersection",
+    "Native NetWork"
+  ],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeEruda": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "renderMode": "1",
+  "scenes": [
+    "4310f31a-7e48-409a-999c-178cc5fca562"
+  ],
+  "sourceMaps": false,
+  "startScene": "4310f31a-7e48-409a-999c-178cc5fca562",
+  "template": "link",
+  "title": "SubGame",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx6ac3f5090a6b99c5",
+    "isSubdomain": true,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "abe6d1b8-33e8-4e",
+  "zipCompressJs": true,
+  "project": "/Users/Macbook/Documents/GitHub/wx_rank_subgame",
+  "projectName": "SubGame",
+  "debugBuildWorker": false
+}
+2018-07-25T11:35:14.088Z - normal: Building /Users/Macbook/Documents/GitHub/wx_rank_subgame
+2018-07-25T11:35:14.088Z - normal: Destination /Users/Macbook/Documents/GitHub/wx_rank_subgame/build/SubGame
+2018-07-25T11:35:14.707Z - normal: Delete /Users/Macbook/Documents/GitHub/wx_rank_subgame/build/SubGame/**/*
+2018-07-25T11:35:39.522Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4658
+2018-07-25T11:35:40.015Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4660
+2018-07-25T11:35:40.024Z - warn: Error: ipc timeout. message: scene:query-node, session: scene@renderer:4661
+2018-07-25T11:35:43.230Z - normal: Compiled project javascript file successfully
+2018-07-25T11:35:43.231Z - normal: Start building assets
+2018-07-25T11:35:43.231Z - normal: Start spawn build-worker
+2018-07-25T11:35:44.174Z - normal: Finish spawn build-worker
+2018-07-25T11:35:44.174Z - normal: Start init build-worker
+2018-07-25T11:35:49.549Z - normal: 1.9.2
+2018-07-25T11:35:49.717Z - normal: Finish init build-worker
+2018-07-25T11:35:49.717Z - normal: Start build-assets in worker
+2018-07-25T11:35:50.068Z - normal: Finish build-assets in worker
+2018-07-25T11:35:50.073Z - normal: Finish building assets
+2018-07-25T11:35:50.083Z - normal: Start building raw assets
+2018-07-25T11:35:50.085Z - normal: Start building plugin scripts
+2018-07-25T11:35:50.145Z - normal: Finish building raw assets
+2018-07-25T11:35:50.155Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
+2018-07-25T11:35:52.305Z - normal: Built to "/Users/Macbook/Documents/GitHub/wx_rank_subgame/build/wechatgame" successfully
+2018-07-25T11:35:58.514Z - info: shutdown preview server

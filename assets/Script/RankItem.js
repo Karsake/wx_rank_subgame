@@ -37,6 +37,8 @@ cc.Class({
         if (rank < 3) {
             this.crownImage.active = true;
             this.rankLabel.node.color = new cc.Color(0, 0, 0, 255);
+        }else{
+            this.rankLabel.fontSize = 37;
         }
         this.rankLabel.string = (rank + 1).toString();
         this.createImage(avatarUrl);
